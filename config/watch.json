@@ -1,13 +1,7 @@
+
 {
-  "movieTitle": "스파이더맨-브랜드 뉴 데이",
-  "movieNo": "30001192",
+  "movieTitle": "러브 WiFi-궁",
+  "movieNo": "30001787",
   "formats": [],
-  "lookAheadDays": 14,
-  "theatres": [
-    {
-      "name": "용산아이파크몰",
-      "siteNo": "0013",
-      "detailNo": "0013001"
-    }
-  ]
+  "lookAheadDays": 45
 }
