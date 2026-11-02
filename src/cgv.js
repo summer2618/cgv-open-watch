@@ -228,6 +228,13 @@ const currentUrl = page.url();
 console.log("CGV 페이지 제목:", pageTitle);
 console.log("CGV 실제 접속 주소:", currentUrl);
 
+
+const pageTitle = await page.title();
+const currentUrl = page.url();
+
+console.log("CGV 페이지 제목:", pageTitle);
+console.log("CGV 실제 접속 주소:", currentUrl);
+
 if (!pageTitle.includes("CGV")) {
   throw new Error("CGV booking page did not load");
 }
