@@ -3,7 +3,7 @@
   "movieTitle": "러브 WiFi-궁",
   "movieNo": "30001787",
   "formats": [],
-  "lookAheadDays": 45,
+  "lookAheadDays": 31,
   "theatres": [
     {"name":"용산아이파크몰","siteNo":"0013","regionCode":"01"},
     {"name":"왕십리","siteNo":"0074","regionCode":"01"},
