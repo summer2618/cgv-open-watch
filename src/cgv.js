@@ -227,9 +227,6 @@ export async function collectCgvSchedules(config, options = {}) {
     const currentUrl = page.url();
     console.log("CGV 페이지 제목:", pageTitle);
     console.log("CGV 실제 접속 주소:", currentUrl);
-    if (!pageTitle.includes("CGV")) {
-      throw new Error("CGV booking page did not load");
-    }
 
     const schedules = [];
     for (const theatre of config.theatres) {
@@ -291,9 +288,6 @@ export async function collectCgvSchedulesForRules(rules, options = {}) {
     const currentUrl = page.url();
     console.log("CGV 페이지 제목:", pageTitle);
     console.log("CGV 실제 접속 주소:", currentUrl);
-    if (!pageTitle.includes("CGV")) {
-      throw new Error("CGV booking page did not load");
-    }
     const schedules = [];
     for (const request of requests) {
       schedules.push(...await fetchTheatreSchedules(page, request.theatres[0], request));
